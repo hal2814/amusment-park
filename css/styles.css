@@ -1,0 +1,13 @@
+#tooShort {
+display: none;
+}
+#middle {
+display: none;
+}
+#tall {
+  display: none;
+}
+
+img{
+  width: 60%;
+}

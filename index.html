@@ -9,18 +9,57 @@
   </head>
   <body>
     <div class="container">
-      <h1>How tall are you?</h1>
-      <form id="height">
-        <div class="form-group">
-          <label for="feet-input">Feet</label>
-          <input id="feet" type="text" class="form-control"></input>
+      <div class="row">
+        <div class="col-md-4">
+          <h1>How tall are you?</h1>
+          <form id="height">
+            <div class="form-group">
+              <label for="feet-input">Feet</label>
+              <input id="feet" type="text" class="form-control"></input>
+            </div>
+            <div class="form-group">
+              <label for="feet-input">Inches</label>
+              <input id="inches" type="text" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="feet-input">Inches</label>
-          <input id="inches" type="text" class="form-control"></input>
+        <div class="col-md-8">
+          <div id="tooShort">
+            <h2>Yo shawty, you're tiny! You can ride these: </h2>
+            <ul>
+              <li>Ponies</li>
+              <img src="img/pony.jpg">
+              <li>Carousel</li>
+              <img src="img/carousel.jpg">
+              <li>Teacups</li>
+              <img src="img/teacup.jpg">
+            </ul>
+          </div>
+          <div id="middle">
+            <h2>Yo shawty, you're average! You can ride these: </h2>
+            <ul>
+              <li>Twister</li>
+              <img src="img/twister.jpg">
+              <li>Ferris Wheel</li>
+              <img src="img/ferris.jpg">
+              <li>The Hulk-a-coaster</li>
+              <img src="img/hulk.jpg">
+            </ul>
+          </div>
+          <div id="tall">
+            <h2>Yo shawty, you're tall! You can ride these: </h2>
+            <ul>
+              <li>Tower of Terror</li>
+              <img src="img/tower.jpg">
+              <li>Slingshot Ride</li>
+              <img src="img/slingshot.jpg">
+              <li>Tall-a-coaster</li>
+              <img src="img/tall.jpg">
+            </ul>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
     </div>
   </body>
 </html>
